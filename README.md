@@ -1,4 +1,4 @@
-![exaaactly logo](https://raw.githubusercontent.com/taliawsmiley/exaaactly/main/images/logo.png)
+![exaaactly logo](https://raw.githubusercontent.com/taliasmiley/exaaactly/main/images/logo.png)
 
 ---
 
