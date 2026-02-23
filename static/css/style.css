@@ -188,6 +188,11 @@ a.home-link {
     min-width: 235px;
 }
 
+.summary h1 {
+    overflow-wrap: anywhere;
+    hyphens: auto;
+}
+
 .summary-list {
     display: flex;
     flex-wrap: wrap;
