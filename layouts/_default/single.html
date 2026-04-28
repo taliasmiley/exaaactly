@@ -15,6 +15,13 @@
 					<time>{{ .Date.Format (default "2006-01-02" .Site.Params.dateFmt) }}</time>
 				</p>
 			{{ end }}
+			{{ if ne .Lastmod .Date }}
+				{{ $displayHR = true }}
+				<p>
+					<i>Last Edited:</i>
+					<time>{{ .Lastmod.Format (default "2006-01-02" .Site.Params.dateFmt) }}</time>
+				</p>
+			{{ end }}
 			{{ if .Params.series }}
 				{{ $displayHR = true }}
 				<p>
